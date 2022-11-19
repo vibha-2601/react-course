@@ -5,8 +5,17 @@ import Welcome from './Components/Welcome'
 function App() {
   return (
     <div className="App">
-    <Greet />
-    <Welcome />
+    <Greet name="Robert" heroName="Batman">
+      <p>This is a children props</p>
+    </Greet>
+    <Greet name="David" heroName="Spiderman">
+      <button>Action</button>
+    </Greet>
+    <Greet name="Kendall" heroName="Superman"/>
+    <Welcome name="Robert" heroName="Batman"/>
+    <Welcome name="David" heroName="Spiderman"/>
+    <Welcome name="Kendall" heroName="Superman"/>
+
     </div>
   );
 }

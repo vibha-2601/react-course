@@ -20,7 +20,8 @@ function App() {
     <Welcome name="Robert" heroName="Batman"/>
     <Welcome name="David" heroName="Spiderman"/>
     <Welcome name="Kendall" heroName="Superman"/> */}
-    
+    <Greet name="Kendall" heroName="Superman"/>
+    <Welcome name="Robert" heroName="Batman"/>
     </div>
   );
 }

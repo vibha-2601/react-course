@@ -4,11 +4,13 @@ import Greet from './Components/Greet'
 import Welcome from './Components/Welcome'
 import Message from './Components/Message'
 import Counter from './Components/Counter'
+import FunctionClickEvent from './Components/FunctionClickEvent';
 
 function App() {
   return (
     <div className="App">
-      <Counter />
+      <FunctionClickEvent />
+      {/* <Counter /> */}
       {/* <Message /> */}
     {/* <Greet name="Robert" heroName="Batman">
       <p>This is a children props</p>
@@ -20,8 +22,7 @@ function App() {
     <Welcome name="Robert" heroName="Batman"/>
     <Welcome name="David" heroName="Spiderman"/>
     <Welcome name="Kendall" heroName="Superman"/> */}
-    <Greet name="Kendall" heroName="Superman"/>
-    <Welcome name="Robert" heroName="Batman"/>
+   
     </div>
   );
 }

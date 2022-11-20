@@ -5,11 +5,13 @@ import Welcome from './Components/Welcome'
 import Message from './Components/Message'
 import Counter from './Components/Counter'
 import FunctionClickEvent from './Components/FunctionClickEvent';
+import ClassClickEvent from './Components/ClassClickEvent';
 
 function App() {
   return (
     <div className="App">
       <FunctionClickEvent />
+      <ClassClickEvent />
       {/* <Counter /> */}
       {/* <Message /> */}
     {/* <Greet name="Robert" heroName="Batman">

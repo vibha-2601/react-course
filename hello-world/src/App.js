@@ -9,12 +9,14 @@ import ClassClickEvent from './Components/ClassClickEvent';
 import EventBind from './Components/EventBind';
 import ParentComponents from './Components/ParentComponents'
 import UserGreeting from './Components/UserGreeting';
-
+import Stylesheet from './Components/Stylesheet';
 
 function App() {
   return (
     <div className="App">
-      <UserGreeting />
+      <Stylesheet primary={true}/>
+      {/* <NameList /> */}
+      {/* <UserGreeting /> */}
       {/* <ParentComponents /> */}
       {/* <EventBind /> */}
       {/* <FunctionClickEvent />

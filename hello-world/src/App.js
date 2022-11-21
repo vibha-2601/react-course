@@ -11,11 +11,16 @@ import ParentComponents from './Components/ParentComponents'
 import UserGreeting from './Components/UserGreeting';
 import Stylesheet from './Components/Stylesheet';
 import Inline from './Components/Inline';
+import './appStyle.css'
+import Styles from './appStyles.module.css'
 
 function App() {
   return (
     <div className="App">
-      <Inline />
+<h1 className='error'>Error</h1>
+<h1 className={Styles.success}>Success</h1>
+
+      {/* <Inline /> */}
       {/* <Stylesheet primary={true}/> */}
       {/* <NameList /> */}
       {/* <UserGreeting /> */}

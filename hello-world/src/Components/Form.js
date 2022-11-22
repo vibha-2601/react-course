@@ -7,7 +7,7 @@ import React, { Component } from 'react'
       this.state = {
          username: '',
          comments: '',
-         options: 'javascript'
+         options: 'react'
 
       }
     }

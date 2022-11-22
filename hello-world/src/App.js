@@ -21,9 +21,12 @@ import ParentCompClass from './Components/ParentCompClass';
 
 
 
+
 function App() {
   return (
     <div className="App">
+
+
      <ParentCompClass />
       {/* <Table /> */}
       {/* <FragmentDemo /> */}

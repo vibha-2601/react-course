@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import MemoFunctional from './MemoFunctional'
 import PureCompClass from './PureCompClass'
 import RegCompClass from './RegCompClass'
 
@@ -24,8 +25,9 @@ import RegCompClass from './RegCompClass'
     return (
       <div>
         Parent Component
-        <RegCompClass name={this.state.name} />
-        <PureCompClass name={this.state.name} />
+        <MemoFunctional name={this.state.name} />
+        {/* <RegCompClass name={this.state.name} />
+        <PureCompClass name={this.state.name} /> */}
 
       </div>
     )

@@ -20,13 +20,15 @@ import Table from './Components/Table'
 import ParentCompClass from './Components/ParentCompClass';
 import RefsDemo from './Components/RefsDemo';
 import FocusInput from './Components/Input'
+import FRParentInput from './FRParentInput';
 
 
 
 function App() {
   return (
     <div className="App">
-<FocusInput />
+      <FRParentInput />
+{/* <FocusInput /> */}
 {/* <RefsDemo /> */}
      {/* <ParentCompClass /> */}
       {/* <Table /> */}

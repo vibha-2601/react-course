@@ -21,13 +21,31 @@ import ParentCompClass from './Components/ParentCompClass';
 import RefsDemo from './Components/RefsDemo';
 import FocusInput from './Components/Input'
 import FRParentInput from './FRParentInput';
+import Hero from './Components/Hero';
+import ErrorBoundary from './Components/ErrorBoundary';
 
 
 
 function App() {
   return (
     <div className="App">
-      <FRParentInput />
+    
+      <ErrorBoundary>
+           <Hero heroName="Batman" />
+     </ErrorBoundary>
+
+      <ErrorBoundary>
+      <Hero heroName="Superman" />
+      </ErrorBoundary>
+
+        <ErrorBoundary>
+      <Hero heroName="Joker" />
+    </ErrorBoundary>
+ 
+      
+     
+
+      {/* <FRParentInput /> */}
 {/* <FocusInput /> */}
 {/* <RefsDemo /> */}
      {/* <ParentCompClass /> */}

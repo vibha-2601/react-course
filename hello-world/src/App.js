@@ -19,15 +19,15 @@ import FragmentDemo from './Components/FragmentDemo';
 import Table from './Components/Table'
 import ParentCompClass from './Components/ParentCompClass';
 import RefsDemo from './Components/RefsDemo';
-
+import FocusInput from './Components/Input'
 
 
 
 function App() {
   return (
     <div className="App">
-
-<RefsDemo />
+<FocusInput />
+{/* <RefsDemo /> */}
      {/* <ParentCompClass /> */}
       {/* <Table /> */}
       {/* <FragmentDemo /> */}

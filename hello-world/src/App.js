@@ -29,19 +29,24 @@ import ClickCounterTwo from './Components/ClickCounterTwo';
 import HoverCounterTwo from './Components/HoverCounterTwo';
 import User from './Components/User';
 import CounterTwo from './Components/CounterTwo';
-
+import ComponentC from './Components/ComponentC';
+import { UserProvider } from './Components/userContext'
 
 
 function App() {
   return (
     <div className="App">
-    <CounterTwo>
+      <UserProvider value='Robert'>
+       <ComponentC />
+      </UserProvider>
+      
+    {/* <CounterTwo>
       {(count, incrementCount) => (<ClickCounterTwo count={count} incrementCount={incrementCount} />)}
       </CounterTwo>  
 
       <CounterTwo>
       {(count, incrementCount) => (<HoverCounterTwo count={count} incrementCount={incrementCount} />)}
-      </CounterTwo> 
+      </CounterTwo>  */}
 
 {/* <ClickCounterTwo />
 <HoverCounterTwo />
